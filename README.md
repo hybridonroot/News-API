@@ -1,14 +1,15 @@
-# Webz.io Free News API Lite Guide
+# Webz.io Free News API Lite Documentation
 
-Webz.io created the free [News API](https://webz.io/products/news-api#lite) Lite so students, developers, and researchers could easily incorporate high-quality, relevant news information into their non-commercial projects. The API gives you limited access to Webz.io vast repository of global news content, including up to 30 days of historical news data. It also includes advanced search capabilities so you can quickly refine and target your news data searches. With access to relevant and timely news data, you can discover trends and analyze sentiment. You can build innovative applications and dashboards powered by news data.
+Welcome to the [Webz.io Free News API Lite documentation](https://webz.io/products/news-api#lite). This API is designed to empower students, developers, and researchers by providing easy access to high-quality, relevant news data for non-commercial projects. With this API, you can tap into Webz.io's extensive repository of global news content, spanning up to 30 days of historical data, and leverage advanced search capabilities to refine and target your queries effectively. Harness the power of timely news data to uncover trends, analyze sentiment, and build innovative applications and dashboards.
 
-## Getting Started in 3 easy steps
-You only need to complete three steps to use the News API Lite.
 
-### 1. Request an API Key
+## 3 Steps Quick Start Guide
 
-- Go to the [News API web page](https://webz.io/products/news-api#lite).
-- Enter your email to receive your API key.
+Follow these three simple steps to start using the News API Lite:
+
+### 1. Obtain an API Key
+
+- To get started, visit the [News API page](https://webz.io/products/news-api#lite). and provide your email address to receive your unique API key.
 
 <img src="https://webz.io/wp-content/uploads/2024/03/First-box.png" width="70%" height="80%">
 
@@ -37,6 +38,7 @@ This query includes negative news posts about President Biden or Donald Trump in
 
 ## Limitations
 
-- Up to 1,000 calls per month.
-- Returns 10 articles per call.
+ - Monthly Call Limit: The API allows up to 1,000 calls per month.
+ - Results per Call: Each API call returns a maximum of 10 articles.
 
+Start exploring the News API Lite today and unlock valuable insights from the world of news data! For more details, refer to the official documentation.
