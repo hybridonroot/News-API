@@ -15,26 +15,28 @@ Follow these three simple steps to start using the News API Lite:
 
   
 
-### 2. Make an API Request
-Use the API key provided to make your first call to the API. Make sure you also specify a search term in the request. For example, the following API request will return news articles related to the search term “Bitcoin.” The default time frame is 3 days, but you can set this to up to 30 days.
+### 2. Make Your First API Request
+Once you have your API key, you can make your first API call. Include your API key in the request URL along with a search term. For instance, to retrieve news articles related to "Bitcoin" within the default 3-day timeframe, use the following endpoint:
 
 - `https://api.webz.io/newsApiLite?token=[token]&q=Bitcoin`.
 
-Here is a screenshot showing a part of the API call results in a web browser:
+Explore the returned data to see relevant news articles.
 
 <img src="https://webz.io/wp-content/uploads/2024/03/step-2-API-call.png" width="70%" height="80%">
 
 
-## 3. Explore Webz.io news data
+## 3. 3. Dive Deeper & Explore Webz.io news data
+
 Experiment with different API call configurations, refining your searches with advanced features like [filters and Boolean queries](https://docs.webz.io/reference/news-blogs-discussions-api-overview). For example, you could search for news articles about U.S. President Joe Biden or his presidential challenger Donald Trump, refining the search to return articles with negative sentiment:
+
+Experiment with various API configurations to refine your searches further. Utilize advanced features such as [filters and Boolean queries](https://docs.webz.io/reference/news-blogs-discussions-api-overview) to tailor your results. 
+For example, you can search for news articles about U.S. President Joe Biden or his challenger Donald Trump with a negative sentiment as follows:
 
 `https://api.webz.io/newsApiLite?token=[token]&ts=0&q=title%3A(Trump%20OR%20Biden)%20sentiment%3Anegative`
 
-This query includes negative news posts about President Biden or Donald Trump in the past 30 days. Here is a screenshot of the call results in a web browser:
+This query retrieves news posts with negative sentiment related to either President Biden or Donald Trump within the past 30 days :
 
 <img src="https://webz.io/wp-content/uploads/2024/03/step-3-corrected.png" width="70%" height="80%">
-
-
 
 ## Limitations
 
